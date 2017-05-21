@@ -51,7 +51,7 @@ public class PartTree implements Iterable<OrPart> {
 	 * @see <a href="http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html#ubc">Pattern</a>
 	 */
 	private static final String KEYWORD_TEMPLATE = "(%s)(?=(\\p{Lu}|\\P{InBASIC_LATIN}))";
-	private static final String QUERY_PATTERN = "find|read|get|query|stream";
+	private static final String QUERY_PATTERN = "find|list|page|read|get|query|stream";
 	private static final String COUNT_PATTERN = "count";
 	private static final String EXISTS_PATTERN = "exists";
 	private static final String DELETE_PATTERN = "delete|remove";
